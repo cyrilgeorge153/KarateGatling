@@ -1,0 +1,10 @@
+{
+  "simulation": "examples.users.TestUserSimulation",
+  "simulationId": "testusersimulation",
+  "start": 1624718817919,
+  "description": "",
+  "scenarios": ["getCall"],
+  "assertions": [
+
+  ]
+}
