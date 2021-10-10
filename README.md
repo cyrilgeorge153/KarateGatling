@@ -18,4 +18,4 @@ To execute the scenario in feature file from project location.
 
 
 
-use the command->mvn clean test-compile gatling:test
+use the command->`mvn clean test-compile gatling:test`
