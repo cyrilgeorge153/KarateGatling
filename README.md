@@ -14,7 +14,9 @@ The user simulation is mentioned in scala class where the no of users accessing 
 
 **To execute the scenario in feature file from project location, use the command->**`mvn clean test-compile gatling:test`
 
-**Gatling Report
+**Test execution gif->** 
+
+**Gatling Report** 
 ![Gatling Report](https://user-images.githubusercontent.com/52770689/136702768-edb53451-719e-40d8-817d-44f5672864c9.png)
 
 # Prerequisites
