@@ -1,64 +1,64 @@
 {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": 20000,
-        "ok": 20000,
+        "total": 40,
+        "ok": 40,
         "ko": 0
     },
     "minResponseTime": {
-        "total": 140,
-        "ok": 140,
+        "total": 129,
+        "ok": 129,
         "ko": 0
     },
     "maxResponseTime": {
-        "total": 21304,
-        "ok": 21304,
+        "total": 755,
+        "ok": 755,
         "ko": 0
     },
     "meanResponseTime": {
-        "total": 436,
-        "ok": 436,
+        "total": 324,
+        "ok": 324,
         "ko": 0
     },
     "standardDeviation": {
-        "total": 284,
-        "ok": 284,
+        "total": 152,
+        "ok": 152,
         "ko": 0
     },
     "percentiles1": {
-        "total": 482,
-        "ok": 482,
+        "total": 368,
+        "ok": 368,
         "ko": 0
     },
     "percentiles2": {
-        "total": 553,
-        "ok": 553,
+        "total": 449,
+        "ok": 449,
         "ko": 0
     },
     "percentiles3": {
-        "total": 728,
-        "ok": 728,
+        "total": 488,
+        "ok": 488,
         "ko": 0
     },
     "percentiles4": {
-        "total": 1508,
-        "ok": 1508,
+        "total": 654,
+        "ok": 654,
         "ko": 0
     },
     "group1": {
         "name": "t < 800 ms",
-        "count": 19310,
-        "percentage": 97
+        "count": 40,
+        "percentage": 100
     },
     "group2": {
         "name": "800 ms < t < 1200 ms",
-        "count": 316,
-        "percentage": 2
+        "count": 0,
+        "percentage": 0
     },
     "group3": {
         "name": "t > 1200 ms",
-        "count": 374,
-        "percentage": 2
+        "count": 0,
+        "percentage": 0
     },
     "group4": {
         "name": "failed",
@@ -66,8 +66,8 @@
         "percentage": 0
     },
     "meanNumberOfRequestsPerSecond": {
-        "total": 26.212319790301443,
-        "ok": 26.212319790301443,
+        "total": 3.6363636363636362,
+        "ok": 3.6363636363636362,
         "ko": 0
     }
 }

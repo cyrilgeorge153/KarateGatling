@@ -3,7 +3,7 @@ Feature: Get call reqres
     Background: base url
         Given url 'https://reqres.in/api'
 
-#    Scenario: single user
+    Scenario: single user
         Given path '/users/2'
         When method get
         Then status 200
@@ -14,5 +14,7 @@ Feature: Get call reqres
         Given path 'api/users'
         And request {"name": "morpheus","job": "leader"}
         When method post
-        Then status 201
         Then print response
+        Then status 201
+        And match response.name == "morpheus"
+        And match response.job == "leader"

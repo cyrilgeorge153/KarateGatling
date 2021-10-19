@@ -9,5 +9,6 @@ class TestUserSimulation extends Simulation{
 
   val getUser=scenario("getCall").exec(karateFeature("classpath:examples/users/users.feature"))
 
-  setUp(getUser.inject(rampUsers(10000) during(180 seconds)))
+  setUp(getUser.inject(rampUsers(20) during(10 seconds)))
+    .assertions(global.responseTime.max.lte(2000))
 }
