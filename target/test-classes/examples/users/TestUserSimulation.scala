@@ -12,3 +12,5 @@ class TestUserSimulation extends Simulation{
   setUp(getUser.inject(rampUsers(20) during(10 seconds)))
     .assertions(global.responseTime.max.lte(2000))
 }
+
+
