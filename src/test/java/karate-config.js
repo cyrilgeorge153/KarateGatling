@@ -6,7 +6,10 @@ function() {
   }
   var config = {
     env: env,
-	myVarName: 'someValue'
+	myVarName: 'someValue',
+	baseUrl: 'https://reqres.in/api',
+	singleUserPath: 'users/2',
+	createUserPath: 'api/users'
   }
   if (env == 'dev') {
     // customize

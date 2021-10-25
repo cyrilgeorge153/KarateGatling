@@ -7,7 +7,7 @@ import scala.language.postfixOps
 
 class TestUserSimulation extends Simulation{
 
-  val getUser=scenario("getCall").exec(karateFeature("classpath:examples/users/users.feature"))
+  val getUser=scenario("get/post http methods").exec(karateFeature("classpath:examples/users/users.feature"))
 
   setUp(getUser.inject(rampUsers(20) during(10 seconds)))
     .assertions(global.responseTime.max.lte(2000))
