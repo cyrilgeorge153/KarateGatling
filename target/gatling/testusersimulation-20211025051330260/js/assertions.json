@@ -1,7 +1,7 @@
 {
   "simulation": "examples.users.TestUserSimulation",
   "simulationId": "testusersimulation",
-  "start": 1635137508803,
+  "start": 1635138810260,
   "description": "",
   "scenarios": ["get/post http methods"],
   "assertions": [
@@ -12,7 +12,7 @@
   "expectedValues": [2000.0],
   "result": true,
   "message": "Global: max of response time is less than or equal to 2000.0",
-  "actualValue": [514.0]
+  "actualValue": [1248.0]
 }
   ]
 }
